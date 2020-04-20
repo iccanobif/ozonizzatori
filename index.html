@@ -880,7 +880,8 @@
 					<div class="send-message">
 						<h2>Send Message</h2>
 
-						<form action="inc/sendemail.php" class="form-validation" autocomplete="off" method="post">
+						<!-- <form action="inc/sendemail.php" class="form-validation" autocomplete="off" method="post"> -->
+						<form name="contact" method="POST" data-netlify="true">
 							<div class="row">
 								<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 									<div class="single-input">
@@ -904,7 +905,7 @@
 							<textarea placeholder="Write Message" name="message"></textarea>
 
 
-							<button class="tran3s p-color-bg">Send Message</button>
+							<button class="tran3s p-color-bg" type="submit">Send Message</button>
 						</form>
 
 

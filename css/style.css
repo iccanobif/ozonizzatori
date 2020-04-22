@@ -246,8 +246,8 @@ animation-delay: .8s;
   margin-left: -12px;
 }
 .theme-title p {
-  font-size: 16px;
-  width: 75%;
+  font-size: 25px;
+  width: 100%;
   margin: 60px auto 0 auto;
 }
 .p-color,.theme-main-menu .navbar-nav>li.active>a,
@@ -1170,7 +1170,7 @@ animation-delay: .8s;
   border-color: #424040;
 }
 #contact-section .send-message form button {
-  width: 140px;
+  width: 160px;
   line-height: 40px;
   text-align: center;
   color:#fff;
